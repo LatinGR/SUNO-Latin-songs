@@ -1,16 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Greek Salsa/Bachata</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f0f0f;
+            color: white;
+        }
+
+        header {
+            padding: 40px;
+            text-align: center;
+            background: linear-gradient(90deg, #1db954, #191414);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            color: #ccc;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .song {
+            background: #1c1c1c;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .song:hover {
+            transform: scale(1.02);
+            background: #252525;
+        }
+
+        .song h2 {
+            margin-bottom: 10px;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #1db954;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .btn:hover {
+            background: #1ed760;
+        }
+    </style>
 </head>
-<body style="background:black; color:white; text-align:center;">
 
-    <h1>🎵 Welcome to LatinGR</h1>
-    <p>Έλα πίσω ξανά</p>
+<body>
 
-    <audio controls>
-        <source src="LatinGR_Έλα πίσω ξανά (Bachata).mp3" type="audio/mpeg">
-    </audio>
+<header>
+    <h1>🎵 Your Artist Name</h1>
+    <p>Independent Music Creator</p>
+</header>
+
+<div class="container">
+
+    <div class="song">
+        <h2>🔥 Track One</h2>
+        <p>A short description of your song</p>
+
+        <audio controls>
+            <source src="song1.mp3" type="audio/mpeg">
+        </audio>
+
+        <a class="btn" href="song1.mp3" download>Download</a>
+    </div>
+
+    <div class="song">
+        <h2>🌙 Track Two</h2>
+        <p>Another vibe, another story</p>
+
+        <audio controls>
+            <source src="song2.mp3" type="audio/mpeg">
+        </audio>
+
+        <a class="btn" href="song2.mp3" download>Download</a>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Your Name | Follow me for more music
+</footer>
 
 </body>
 </html>
