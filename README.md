@@ -1,2 +1,2 @@
-# SUNO-Latin-songs
+# Songs
 Salsa and Bachata songs with Greek lyrics
